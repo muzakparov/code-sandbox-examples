@@ -1,0 +1,58 @@
+
+ as: Component = 'div',
+      bsPrefix,
+      slide,
+      fade,
+      indicators,
+      controls,
+      wrap,
+      touch,
+      prevIcon,
+      prevLabel,
+      nextIcon,
+      nextLabel,
+      className,
+      children,
+      keyboard,
+      activeIndex: _5,
+      pauseOnHover: _4,
+      interval: _3,
+      onSelect: _2,
+      onSlideEnd: _1,
+
+
+       state = {
+    prevClasses: '',
+    currentClasses: 'active',
+    touchStartX: 0,
+    activeIndex,
+          previousActiveIndex,
+
+    direction,
+
+  };
+
+
+{
+  "activeIndex": 2,
+  "onSelect": "handleChange()",
+  "children": [
+    "<ForwardRef />",
+    "<ForwardRef />",
+    "<ForwardRef />"
+  ],
+  "bsPrefix": "carousel",
+  "slide": true,
+  "fade": false,
+  "interval": 5000,
+  "keyboard": true,
+  "pauseOnHover": true,
+  "wrap": true,
+  "indicators": true,
+  "controls": true,
+  "prevIcon": "<span />",
+  "prevLabel": "Previous",
+  "nextIcon": "<span />",
+  "nextLabel": "Next",
+  "touch": true
+}

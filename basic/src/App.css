@@ -1,0 +1,21 @@
+.header {
+  text-align: center;
+  width: 800px;
+  height: 400px;
+  margin: 10px auto;
+}
+
+.toast {
+  margin: 0 auto;
+}
+
+/* .carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform 10s ease-in-out !important;
+} */
